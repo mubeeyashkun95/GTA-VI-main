@@ -32,7 +32,7 @@ function App() {
       gradient: "from-zinc-800 via-neutral-900 to-black",
       icon: "ri-crosshair-fill",
       publisher: "Activision",
-      image: "https://upload.wikimedia.org/wikipedia/en/b/b1/Call_of_Duty_Modern_Warfare_III_key_art.jpg",
+      image: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2519060/library_600x900.jpg",
     },
     {
       id: 3,
@@ -42,7 +42,7 @@ function App() {
       gradient: "from-green-500 via-emerald-600 to-teal-700",
       icon: "ri-football-fill",
       publisher: "EA Sports",
-      image: "https://upload.wikimedia.org/wikipedia/en/5/58/EA_Sports_FC_25_cover.jpg",
+      image: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2669320/library_600x900.jpg",
     },
     {
       id: 4,
@@ -52,7 +52,7 @@ function App() {
       gradient: "from-yellow-500 via-cyan-500 to-blue-600",
       icon: "ri-robot-fill",
       publisher: "CD Projekt Red",
-      image: "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg",
+      image: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/library_600x900.jpg",
     },
     {
       id: 5,
@@ -62,7 +62,7 @@ function App() {
       gradient: "from-amber-600 via-yellow-700 to-orange-800",
       icon: "ri-sword-fill",
       publisher: "Ubisoft",
-      image: "https://upload.wikimedia.org/wikipedia/en/0/07/Assassin%27s_Creed_Mirage_cover.jpg",
+      image: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3035570/library_600x900.jpg",
     },
     {
       id: 6,
@@ -82,7 +82,7 @@ function App() {
       gradient: "from-amber-500 via-orange-700 to-yellow-900",
       icon: "ri-sword-fill",
       publisher: "FromSoftware",
-      image: "https://upload.wikimedia.org/wikipedia/en/b/b9/Elden_Ring_Box_Art.jpg",
+      image: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/library_600x900.jpg",
     },
     {
       id: 8,
@@ -92,7 +92,7 @@ function App() {
       gradient: "from-amber-700 via-red-800 to-rose-900",
       icon: "ri-landscape-fill",
       publisher: "Rockstar Games",
-      image: "https://upload.wikimedia.org/wikipedia/en/4/44/Red_Dead_Redemption_II.jpg",
+      image: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/library_600x900.jpg",
     },
   ];
 
