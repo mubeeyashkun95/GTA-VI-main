@@ -398,10 +398,6 @@ function App() {
     });
 
   }, { dependencies: [showContent] });
-
-  /* =========================
-     MOUSE PARALLAX
-  ========================== */
   useGSAP(
     () => {
       const main = document.querySelector(".main");
@@ -934,16 +930,16 @@ function App() {
 
             {/* Bottom Bar */}
             <div className="border-t border-white/10 py-6 px-6 md:px-10">
-              <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-                <div className="flex items-center gap-4">
+              <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-center items-center gap-4">
+                {/* <div className="flex items-center gap-4">
                   <img
-                    src="/Brands-removebg.png"
+                    src=""
                     alt="Brands"
-                    className="h-8 md:h-10 object-contain opacity-70 hover:opacity-100 transition-opacity duration-300"
+                    className="h-10 md:h-10 object-contain opacity-70 hover:opacity-100 transition-opacity duration-300"
                   />
-                </div>
+                </div> */}
                 <p className="text-white/40 text-xs text-center md:text-right">
-                  © 2024 Rockstar Games, Inc. All Rights Reserved. Grand Theft Auto, GTA, and the Rockstar Games logo are trademarks of Take-Two Interactive Software, Inc.
+                  © 2025 Rockstar Games, Inc. All Rights Reserved. Grand Theft Auto, GTA, and the Rockstar Games logo are trademarks of Take-Two Interactive Software, Inc.
                 </p>
               </div>
             </div>
