@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -517,6 +518,27 @@ function App() {
                     Pre-Order
                     <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-orange-500 group-hover:w-full transition-all duration-300"></span>
                   </a>
+
+                  {/* Auth Buttons */}
+                  <div className="flex items-center gap-3 ml-4 pl-4 border-l border-white/10">
+                    <Link
+                      to="/login"
+                      className="px-5 py-2 rounded-full text-sm uppercase tracking-wider font-medium
+                        border border-white/20 hover:border-orange-500 hover:text-orange-500
+                        transition-all duration-300 hover:shadow-lg hover:shadow-orange-500/10"
+                    >
+                      Login
+                    </Link>
+                    <Link
+                      to="/signup"
+                      className="px-5 py-2 rounded-full text-sm uppercase tracking-wider font-semibold
+                        bg-gradient-to-r from-orange-500 to-pink-500 
+                        hover:shadow-lg hover:shadow-orange-500/25 hover:scale-105
+                        transition-all duration-300"
+                    >
+                      Sign Up
+                    </Link>
+                  </div>
                 </div>
               </div>
             </nav>
@@ -952,5 +974,4 @@ function App() {
     </>
   );
 }
-
 export default App;
