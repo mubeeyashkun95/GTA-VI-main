@@ -119,9 +119,10 @@ function Dashboard() {
                         </div>
                         <div className="w-full h-1.5 bg-white/10 rounded-full overflow-hidden">
                             <div className="h-full bg-gradient-to-r from-orange-500 to-pink-500 rounded-full transition-all duration-1000" style={{ width: `${(player.xp / player.xpNext) * 100}%` }}></div>
-                        </div>
+                        </div> 
+                        
                     </div>
-                </div>
+                </div> 
 
                 {/* Nav */}
                 <nav className="flex-1 p-4 space-y-1 overflow-y-auto mt-2">
