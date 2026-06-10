@@ -100,6 +100,7 @@ function Dashboard() {
                         <button onClick={() => setSidebarOpen(false)} className="md:hidden text-white/50 hover:text-white"><i className="ri-close-line text-xl"></i></button>
                     </div>
                 </div>
+                {/* heloo */}
 
                 {/* Player Card */}
                 <div className="p-4 mx-4 mt-4 rounded-2xl bg-gradient-to-br from-white/5 to-white/[0.02] border border-white/5">
